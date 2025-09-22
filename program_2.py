@@ -1,3 +1,7 @@
+# Jonathan Sonnek
+# Sept 21 2025
+# Movie Tickets
+
 # Program #2: Movie Tix
 # Write a program that has the user input various movie names and how many 
 # tickets are desired for each movie.  

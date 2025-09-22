@@ -1,3 +1,7 @@
+# Jonathan Sonnek
+# Sept 21 2025
+# Rainfall Calculator
+
 # Program #3: Average Rainfall
 # Write a program that uses nested loops to collect data and calculate the average 
 # rainfall over a period of years.  
