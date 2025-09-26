@@ -16,9 +16,9 @@ def main():
     # Setting the initial ticket count to 0
     total_tickets = 0
     # Movie title collector
-    while add_movie == True:
+    while add_movie:
         title = input("Enter Movie Title (Type x if no more movie titles): ")
-        if(title == "x"):
+        if title == "x":
             add_movie = False
         else:
             tickets = int(input("Enter the number of tickets: "))

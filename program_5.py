@@ -17,23 +17,16 @@ def main():
 
     ######################
     # Setting initial expenses to 0 and finding the budget
-    total_expenses = 0.0
     budget = float(input("Enter your budget: "))
 
+    while spent != 0:
+        spent = float(input("Enter your expense (Enter 0 if no more expenses): "))
 
-    while True:
-        expense = float(input("Enter your expense (Enter 0 if no more expenses): "))
-        if expense == 0:
-            break
-        else:
-            total_expenses += expense
-            budget -= expense
-    if budget > 0:
-        print("You saved $", budget, "this month!")
-    elif budget == 0:
-        print("You budgeted well, you have $",budget, "left." )
-    else:
-        print("You went over your budget by $", abs(budget),"!")
+        total += spent
+
+    # Print budget amount
+    difference = budget - total
+    print(f"{difference:.2f}")
     ######################
 
 
