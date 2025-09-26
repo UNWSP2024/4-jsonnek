@@ -1,3 +1,7 @@
+# Jonathan Sonnek
+# Sept 21 2025
+# Budget Calculator
+
 # Program #5: Bank Balance
 # Write a program that asks the user to enter the amount that he or she has budgeted for a month.
 # A loop should then prompt the user to enter each of his or her expenses for the 
@@ -12,7 +16,17 @@ def main():
     total = 0.0
 
     ######################
-    # WRITE YOUR CODE HERE
+    # Setting initial expenses to 0 and finding the budget
+    budget = float(input("Enter your budget: "))
+
+    while spent != 0:
+        spent = float(input("Enter your expense (Enter 0 if no more expenses): "))
+
+        total += spent
+
+    # Print budget amount
+    difference = budget - total
+    print(f"{difference:.2f}")
     ######################
 
 
